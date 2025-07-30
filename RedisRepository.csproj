@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="*" />
+    <None Include="include/**" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>1Hoppi.RedisRepository</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Maxim Kholkin</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+</Project>
